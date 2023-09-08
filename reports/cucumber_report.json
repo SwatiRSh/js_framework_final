@@ -1,0 +1,209 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "banking-management;login-page",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "login page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11698799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "user launch the url",
+            "match": {
+              "location": "test\\feature\\stepdefinition\\Customsteps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4421879799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "user enter the user name",
+            "match": {
+              "location": "test\\feature\\stepdefinition\\Customsteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10100381399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "user enters the password",
+            "match": {
+              "location": "test\\feature\\stepdefinition\\Customsteps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10107639499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user click the login button",
+            "match": {
+              "location": "test\\feature\\stepdefinition\\Customsteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11124856999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user select the hotel location",
+            "match": {
+              "location": "test\\feature\\stepdefinition\\Customsteps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 212582400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user select the hotel",
+            "match": {
+              "location": "test\\feature\\stepdefinition\\Customsteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 192401399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user select the room type",
+            "match": {
+              "location": "test\\feature\\stepdefinition\\Customsteps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193105599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user select the number of rooms needed",
+            "match": {
+              "location": "test\\feature\\stepdefinition\\Customsteps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 253420899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user select the how many audlts in the rooms",
+            "match": {
+              "location": "test\\feature\\stepdefinition\\Customsteps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 198745400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user select the how many childern in the rooms",
+            "match": {
+              "location": "test\\feature\\stepdefinition\\Customsteps.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 192320000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "user click the search button",
+            "match": {
+              "location": "test\\feature\\stepdefinition\\Customsteps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 760581099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "user click the radio button",
+            "match": {
+              "location": "test\\feature\\stepdefinition\\Customsteps.js:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79445700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user click continue button and it navigate to book a hotal page",
+            "match": {
+              "location": "test\\feature\\stepdefinition\\Customsteps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 787268800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 284732800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "banking-management",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "banking management",
+    "tags": [],
+    "uri": "test\\feature\\Adactin.feature"
+  }
+]

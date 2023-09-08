@@ -1,0 +1,47 @@
+{
+  "name": "vs_code1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cucumber.js",
+  "scripts": {
+    "test": "cucumber-js -f @cucumber/pretty-formatter -p html_report '--publish' test/features/*/*.feature --parallel 0 --retry 0 --require test/steps/*.js",
+      "test:tc01": "cucumber-js -f @cucumber/pretty-formatter -p html_report '--publish' test/features/*/*.feature --tags \"@TC_01\" --parallel 0 --retry 0 --require test/steps/*.js",
+      "test:tc02": "cucumber-js -f @cucumber/pretty-formatter -p html_report '--publish' test/features/*/*.feature --tags \"@TC_02\" --parallel 0 --retry 0 --require test/steps/*.js",
+      "test:tc03": "cucumber-js -f @cucumber/pretty-formatter -p html_report '--publish' test/features/*/*.feature --tags \"@TC_03\" --parallel 0 --retry 0 --require test/steps/*.js",
+      "test:tc04": "cucumber-js -f @cucumber/pretty-formatter -p html_report '--publish' test/features/*/*.feature --tags \"@TC_04\" --parallel 0 --retry 0 --require test/steps/*.js",
+      "test:all": "npm run test:tc01 && npm run test:tc02 && npm run test:tc03 && test:tc04 && npm run test:cucumber"
+  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.5.1",
+    "@wdio/appium-service": "^8.15.9",
+    "appium": "^2.1.3",
+    "axios": "^1.5.0",
+    "fs": "^0.0.1-security",
+    "JASON": "^0.1.3",
+    "lodash": "^4.17.21",
+    "oauth-1.0a": "^2.2.6",
+    "selenium-webdriver": "^4.8.1",
+    "twitter-api-v2": "^1.15.1"
+  },
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "@wdio/allure-reporter": "^8.15.7",
+    "@wdio/cli": "^8.15.9",
+    "@wdio/cucumber-framework": "^8.15.9",
+    "@wdio/local-runner": "^8.15.9",
+    "@wdio/spec-reporter": "^8.15.7",
+    "appium-uiautomator2-driver": "^2.29.5",
+    "chai": "^4.3.8",
+    "chai-as-promised": "^7.1.1",
+    "chromedriver": "^104.0.0",
+    "concurrently": "^8.2.1",
+    "cucumber": "^6.0.7",
+    "cucumber-html-reporter": "^5.5.1",
+    "wdio-wait-for": "^3.0.6",
+    "webdriverio": "^8.16.4"
+  }
+}

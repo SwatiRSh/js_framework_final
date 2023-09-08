@@ -1,0 +1,12 @@
+{
+    "cucumberautocomplete.steps": [
+        // "test/cucumber/features/steps/logic_Controller/functional/steps/**/*.js",
+        // "test/steps/utils/**/*.js",
+        "test/steps/*.js"
+    ],
+    "cucumberautocomplete.syncfeatures": "test/features/*/*.feature",
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumberautocomplete.strictGherkinValidation": false,
+    "cucumberautocomplete.smartSnippets": true,
+    "cucumberautocomplete.stepsInvariants": true
+}

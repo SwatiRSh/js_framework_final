@@ -1,0 +1,18 @@
+{
+    "test_data_sc": {
+        "TC-01": {
+            "MyText1": "Hi Twitter users, This is my API TEST for POST1",
+            "MyText2": "Hi Twitter users, This is my API TEST for POST2"
+        },
+        "TC-02": {
+            "message1": ".Supper happy to participate in  #TRISTHAAUTOTHON2023 organised by @tester82584 in partnership with @tester82584. This event is running in paraller with #tristhasummit2023 - TRISTHAE_AUTO1_TEST1",
+            "message2": ".The participation is amazing and about 35 teams are participating in this #TRISTHAAUTOTHON2023 TRISTHAE_AUTO2_TEST1 @tester82584 @tester82584.",
+            "message3": ".My team TRISTHAE_AUTO3_TEST1 is doing great & we are sure towin the event TRISTHA @tester82584 @tester82584."
+        },
+        "TC-03": {
+            "message1": "TRISTHAE_AUTO1_TEST1",
+            "message2": "TRISTHAE_AUTO2_TEST1",
+            "message3": "TRISTHAE_AUTO3_TEST1"
+        }
+    }
+}
