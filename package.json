@@ -8,8 +8,8 @@
       "test:tc01": "cucumber-js -f @cucumber/pretty-formatter -p html_report '--publish' test/features/*/*.feature --tags \"@TC_01\" --parallel 0 --retry 0 --require test/steps/*.js",
       "test:tc02": "cucumber-js -f @cucumber/pretty-formatter -p html_report '--publish' test/features/*/*.feature --tags \"@TC_02\" --parallel 0 --retry 0 --require test/steps/*.js",
       "test:tc03": "cucumber-js -f @cucumber/pretty-formatter -p html_report '--publish' test/features/*/*.feature --tags \"@TC_03\" --parallel 0 --retry 0 --require test/steps/*.js",
-      "test:tc04": "cucumber-js -f @cucumber/pretty-formatter -p html_report '--publish' test/features/*/*.feature --tags \"@TC_04\" --parallel 0 --retry 0 --require test/steps/*.js",
-      "test:all": "npm run test:tc01 && npm run test:tc02 && npm run test:tc03 && test:tc04 && npm run test:cucumber"
+      "test:tc05": "cucumber-js -f @cucumber/pretty-formatter -p html_report '--publish' test/features/*/*.feature --tags \"@TC_05\" --parallel 0 --retry 0 --require test/steps/*.js",
+      "test:all": "npm run test:tc01 && npm run test:tc02 && npm run test:tc03 && test:tc05 && npm run test:cucumber"
   
   },
   "keywords": [],
